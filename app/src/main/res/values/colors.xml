@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC94AF</color>
+    <color name="colorPrimaryDark">#e75480</color>
+    <color name="colorAccent">#FC94AF</color>
+    <color name="link_color">#6200EE</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="main_color">#FC94AF</color>
+    <color name="cardview1_color">#EA738DFF</color>
+    <color name="cardview2_color">#FFB200</color>
+    <color name="cardview3_color">#F98866</color>
+    <color name="cardview4_color">#89DA59</color>
+</resources>

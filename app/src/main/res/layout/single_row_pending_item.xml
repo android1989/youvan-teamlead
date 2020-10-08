@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/single_row_pending_item_image"
+        android:src="@drawable/default_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+       />
+
+    <TextView
+        android:id="@+id/single_row_pending_item_name"
+        android:text="Item Name"
+        android:layout_toEndOf="@+id/single_row_pending_item_image"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/main_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/single_row_pending_item_quantity_text"
+        android:text="(Qty:"
+        android:layout_toEndOf="@+id/single_row_pending_item_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/main_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/single_row_pending_item_quantity"
+        android:text="3"
+        android:layout_toEndOf="@+id/single_row_pending_item_quantity_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:textSize="15sp"
+        android:textColor="@color/main_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/single_row_pending_item_quantity_text2"
+        android:text=")"
+        android:layout_toEndOf="@+id/single_row_pending_item_quantity"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:textSize="15sp"
+        android:textColor="@color/main_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/single_row_pending_item_student_name"
+        android:text="Student Name"
+        android:layout_toRightOf="@+id/single_row_pending_item_image"
+        android:layout_below="@+id/single_row_pending_item_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/main_color"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/accept_donation_call_icon"
+        android:src="@drawable/phone_call1"
+        android:layout_toStartOf="@+id/pending_mobile"
+        android:layout_alignBottom="@+id/pending_mobile"
+        android:layout_marginEnd="1dp"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pending_mobile"
+        android:text="Call"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@+id/single_row_pending_item_quantity_text2"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:textColor="@color/link_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/single_row_pending_item_image"/>
+
+</RelativeLayout>
